@@ -2,13 +2,6 @@
 
  Your mission:  land the lunar module safely on the moon!
 
-<a id="orga0c3ce2"></a>
-
-# Lunar Landing
-
-Your mission:  land the lunar module safely on the moon!
-
-
 <a id="org74a2fde"></a>
 
 ## Game description
