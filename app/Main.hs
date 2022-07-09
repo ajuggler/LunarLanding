@@ -49,7 +49,7 @@ continuePlay chan = do
     TickEvent    -> do
       let newBoost = if b > 0 then b - boostPacks b else 0
       let newShots = if s < 0 then s + 1 else s
-      put $ (newBoost, newShots, newPhase)
+      put (newBoost, newShots, newPhase)
       play chan
     KeyEvent ' ' -> if s > 0
       then do
