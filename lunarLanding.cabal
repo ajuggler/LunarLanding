@@ -1,0 +1,35 @@
+cabal-version:      >=1.10
+name:               lunarLanding
+version:            0.1.0.0
+synopsis:           Your mission is to land safely on the moon.
+
+-- A longer description of the package.
+-- description:
+homepage:           https://github.com/ajuggler
+
+-- A URL where users can report bugs.
+-- bug-reports:
+license:            GPL-2
+license-file:       LICENSE
+author:             Antonio Hernandez
+maintainer:         contacto@antoniohernandez.mx
+
+-- A copyright notice.
+-- copyright:
+category:           Game
+build-type:         Simple
+extra-source-files: CHANGELOG.md
+
+executable lunarLanding
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    other-modules:    Data, Init, Render
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base >=4.14 && <4.15
+                    , ansi-terminal
+                    , mtl
+    hs-source-dirs:   app
+    default-language: Haskell2010
