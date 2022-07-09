@@ -2,14 +2,14 @@
 
  Your mission:  land the lunar module safely on the moon!
 
-<a id="org761f9c3"></a>
+<a id="org81b6784"></a>
 
 ## Game description
 
 You command the lunar module, which is descending towards the moon's surface.  It is paramount that, at the moment of touch down, the speed be below a safe threshold.  The module accelerates towards the surface due to gravity.  To decelerate, you have at your disposal a limited number of boosters which you must fire at the right moments.
 
 
-<a id="org229a516"></a>
+<a id="org2af7aa5"></a>
 
 ## Game instructions
 
@@ -17,10 +17,10 @@ You command the lunar module, which is descending towards the moon's surface.  I
 
 -   Press 'x' to abort the game
 
-You'll get feedback on your altitude and velocity, the number of fired boosters currently active, the shots remaining, and whether your speed is safe for landing.
+You'll get feedback on your altitude and velocity, the number of fired boosters currently active, the shots remaining, whether your speed is safe for landing, as well as a basic graphical representation of the lunar module's progress.
 
 
-<a id="orgf899106"></a>
+<a id="org4951270"></a>
 
 ## About
 
