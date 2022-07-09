@@ -24,6 +24,6 @@ You'll get feedback on your altitude and velocity, the number of fired boosters 
 
 ## About
 
-The game is written in Haskell and is meant to be run on an ANSI-terminal.  [Click here](https://www.haskell.org/cabal/) if you need help building a Haskell program with Cabal.
+The game is written in Haskell and is meant to be run on an ANSI-terminal.  ([Click here](https://www.haskell.org/cabal/) if you need help building a Haskell program with Cabal.)
 
-The idea for the game came to me from a distant childhood memory, whence an uncle showed me this sort of game running on a 1976 [Mag Card HP Calculator](https://www.hpmuseum.org/hp6797.htm) without graphics.
+The idea for the game came to me from a distant childhood memory, whence an uncle showed me this sort of game running on a 1979 [Mag Card HP Calculator](https://www.hpmuseum.org/hp6797.htm) without graphics.
