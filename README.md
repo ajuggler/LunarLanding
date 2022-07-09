@@ -5,11 +5,7 @@
 Your mission: land the lunar module safely on the moon!
 
 
-<<<<<<< Updated upstream
-<a id="org74a2fde"></a>
-=======
 <a id="org6ad47c9"></a>
->>>>>>> Stashed changes
 
 ## Game description
 
@@ -20,11 +16,7 @@ due to gravity.  To decelerate, you have at your disposal a limited
 number of boosters which you must fire at the right moments.
 
 
-<<<<<<< Updated upstream
-<a id="org57080ff"></a>
-=======
 <a id="orgd0b92f0"></a>
->>>>>>> Stashed changes
 
 ## Game instructions
 
@@ -38,15 +30,6 @@ safe for landing, as well as a basic graphical representation of the
 lunar module's progress.
 
 
-<<<<<<< Updated upstream
-<a id="orgdb7db75"></a>
-
-## About
-
-The game is written in Haskell and is meant to be run on an ANSI-terminal.  (Click [here](https://www.haskell.org/cabal/) if you need help building a Haskell program with Cabal.)
-
-The idea for the game came to me from a distant childhood memory, whence an uncle showed me a very primitive version of this sort of game running on a nifty [Mag Card HP Calculator](https://www.hpmuseum.org/hp6797.htm) without graphics.
-=======
 <a id="org8f20535"></a>
 
 ## About
@@ -60,4 +43,3 @@ whence an uncle showed me a very primitive version of this sort of
 game running on a nifty [Mag Card HP
 Calculator](https://www.hpmuseum.org/hp6797.htm) without graphics.
 
->>>>>>> Stashed changes
