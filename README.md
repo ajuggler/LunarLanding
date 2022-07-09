@@ -1,5 +1,3 @@
-<a id="org9b3ac5e"></a>
-
 # Lunar Landing
 
 Your mission: land the lunar module safely on the moon!
