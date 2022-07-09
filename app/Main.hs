@@ -54,7 +54,8 @@ continuePlay chan = do
     KeyEvent ' ' -> if s > 0
       then do
         let newBoost = b + boostPack
-        put (newBoost, s - 1, newPhase)
+        let newShots = s - 1
+        put (newBoost, newShots, newPhase)
         play chan
       else do
         put (b, negShotsPck, ph)
