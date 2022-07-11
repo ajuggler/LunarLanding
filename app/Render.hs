@@ -7,6 +7,7 @@ import System.Console.ANSI
 
 import Data
 import Init
+import Physics
 
 -- Messages
 
@@ -54,11 +55,6 @@ fireMsg n = do
   let (y0, x0) = statusYX config
   lift $ setCursorPosition (y0 - n) x0
   lift . putStr $ "Fired!"
-
--- Number of boosters currently firing
-
-boostPacks :: Boosts -> Int
-boostPacks b = div b boostPack + (if mod b boostPack > 0 then 1 else 0)
 
 -- Rendering
 

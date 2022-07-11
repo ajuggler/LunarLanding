@@ -9,6 +9,7 @@ import System.Console.ANSI
 
 import Data
 import Init
+import Physics
 import Render
 
 -- Threads
@@ -62,21 +63,6 @@ continuePlay chan = do
         play chan
     KeyEvent 'x' -> lift byeMsg
     KeyEvent _   -> play chan
-
--- Physics
-
--- Newton's second law:
-accel :: Boosts -> Float              -- acceleration
-accel b = gravity + bForce
-  where
-    bForce = boostForce * (fromIntegral . boostPacks $ b)
-
--- Motion:
-phaseStep :: Boosts -> Phase -> Phase
-phaseStep b (Phase p v) = Phase newPos newVel
-  where
-    newPos = p + timeStep * v         -- position update
-    newVel = v + timeStep * (accel b) -- velocity update
 
 -- Main
 
