@@ -39,5 +39,5 @@ repository using [Cabal](https://www.haskell.org/cabal/).
 The idea for the game came to me from a distant childhood memory,
 whence an uncle showed me a very primitive version of this sort of
 game running on a nifty [Mag Card HP
-Calculator](https://www.hpmuseum.org/hp6797.htm) without graphics.
+Calculator](https://www.hpmuseum.org/hp6797.htm).
 
